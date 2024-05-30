@@ -1,0 +1,43 @@
+/* Variables */
+:root {
+  --font-name: "sahel";
+}
+
+/* Reset */
+@font-face {
+  font-family: var(--font-name);
+  src: url("./assets/fonts/Sahel.ttf") format('truetype');
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  height: 100dvh;
+  box-sizing: border-box;
+  direction: rtl;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif, Courier, monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}

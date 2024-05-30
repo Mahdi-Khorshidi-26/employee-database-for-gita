@@ -1,0 +1,110 @@
+.boxContainer {
+    border: .1rem solid #999999;
+    padding: 1rem 1rem;
+    width: 60%;
+    margin: 3rem auto;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: .3rem;
+    background-color: #324860;
+    z-index: 10;
+}
+
+.boxContainer .formAccordion {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    border: .1rem solid black;
+    padding: 2rem 2rem;
+    width: 100%;
+    font-size: 1.3rem;
+    background-color: white;
+}
+
+.boxContainerModal {
+    border: .1rem solid #999999;
+    padding: 1rem 1rem;
+    width: 35%;
+    height: 35%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: .3rem;
+    background-color: #324860;
+    z-index: 20;
+}
+
+.boxContainerModal .formModal {
+    margin-top: 2rem;
+    gap: 1rem;
+    border: .1rem solid black;
+    padding: 2rem 2rem;
+    width: 100%;
+    font-size: 1.3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 82%;
+    background-color: #fff;
+}
+
+.doubleBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.formHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    color: white;
+}
+
+
+.closeIcon {
+    opacity: 0.7;
+    cursor: pointer;
+    color: white;
+    transition: all .2s;
+}
+
+.closeIcon:hover {
+    opacity: 1;
+    transition: all .2s;
+}
+
+.deleteBox {
+    margin-top: 1rem;
+    padding: 2rem;
+    background-color: #fff;
+    height: 85%;
+    font-size: 2rem;
+}
+
+.deleteBoxBtnContainer,
+.chartContainer {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.mapContainer {
+    margin-top: .5rem;
+}
+
+.chartContainer {
+    background-color: white;
+    height: 82%;
+}
